@@ -20,9 +20,6 @@ export function findModes(numbers: number[]): number[] {
             modes.push(key)
         }
     }
-    console.log(modes)
     return modes
 }
 
-const numbers = [1, 1, 2, 3, 4, 5, 6, 6]
-console.log(findModes(numbers))
