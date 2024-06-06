@@ -1,5 +1,5 @@
 import {describe, test, expect, vi} from "vitest";
-import {TaskScheduler} from "./scheduler.ts";
+import {TaskScheduler} from "./scheduler";
 
 
 describe("TaskScheduler", () => {

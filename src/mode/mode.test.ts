@@ -1,5 +1,5 @@
 import {describe, expect, test} from "vitest";
-import {findModes} from "./mode.ts";
+import {findModes} from "./mode";
 
 describe("Modes", () => {
     test("Empty Array", () => {
